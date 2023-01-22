@@ -1,3 +1,5 @@
+// a program futása a main függvénnyel indul nem itt.
+
 package app1;
 
 public class App1 {
@@ -97,10 +99,12 @@ public class App1 {
         System.out.println("Sorban: ");
         tombKiIr(tomb);
     }
-
+/--------------------------------------innen indul a program futása---------------------------------------
+// zárójelbe római számokkal jelöltem az eljárásokat és az őket meghívó parancsot
+    
     public static void main(String[] args) {
         /*
-        int[] tomb = new int[10];       // zárójelbe római számokkal jelöltem az eljárásokat és az őket meghívó parancsot
+        int[] tomb = new int[10];       
  
         tombKiIr(tomb);
         tombKiIr(tomb, 5);
